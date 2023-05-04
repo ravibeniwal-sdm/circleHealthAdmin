@@ -1,0 +1,67 @@
+.dashboard-container {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.dashbaord-card-container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:15px;
+    
+}
+.dashboard-card-item{
+    width:22%;
+    min-width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    gap:5px;
+    color:#1899f5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    // box-shadow: rgba(0, 0, 0, 0.2) 0px 50px 30px -7px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    transition: 0.2s ease-in;
+}
+.dashboard-card-item:hover{
+    transform: scale(1.03);
+    background-color: #1899f5;
+    color: white
+
+}
+
+.card-header {
+    font-size: 1.3em;
+    font-weight: 600;
+    color:Black
+}
+.card-item {
+    font-size:1.5em;
+    font-weight: 900;
+}
+
+.chart-container {
+    margin-top:6em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap:25px;
+
+}
+.chart-item{
+    width: 47% !important;
+    min-width: 300px  !important;
+    height: 35vh  !important;
+    min-height: 200px  !important;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 7px;
+}
+
+
+
